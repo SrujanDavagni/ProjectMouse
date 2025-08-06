@@ -8,7 +8,9 @@ This project uses **OpenCV**, **MediaPipe**, and **PyAutoGUI** to detect hand la
 ##  Project Structure
 
 E:\ProjectMouse
+
 ├── HandGestures.ipynb # Main notebook for gesture control
+
 ├── README.md # Project documentation
 
 
