@@ -1,49 +1,55 @@
-<<<<<<< HEAD
-# 🖱️ Hand Gesture Controlled Mouse
+#  Hand Gesture Controlled Mouse (Jupyter Notebook)
 
-Control your mouse cursor and click using hand gestures captured via webcam using Python, OpenCV, MediaPipe, and PyAutoGUI.
-
----
-
-## 🎯 Features
-
-- Move cursor using index and middle fingers
-- Click using index and thumb pinch gesture
-- Real-time hand tracking using MediaPipe
-- Smooth cursor motion to reduce jitter
-- FPS (Frames Per Second) display on screen
+Control your mouse with hand gestures using your webcam!  
+This project uses **OpenCV**, **MediaPipe**, and **PyAutoGUI** to detect hand landmarks in real-time and control the mouse cursor using gestures — all from a **Jupyter Notebook**.
 
 ---
 
-## 🛠️ Tech Stack
+##  Project Structure
 
-- **Python 3**
-- **OpenCV** – for image processing
-- **MediaPipe** – for hand tracking and landmarks detection
-- **PyAutoGUI** – for controlling the mouse
+E:\ProjectMouse
+├── HandGestures.ipynb # Main notebook for gesture control
+├── README.md # Project documentation
 
----
-
-## 🧑‍💻 How It Works
-
-- Uses **MediaPipe** to detect and track hand landmarks.
-- Recognizes:
-  - Index + middle finger up = move mouse.
-  - Thumb + index pinch = click.
-- Converts hand position from camera coordinates to screen resolution.
-- Smoothens the cursor movement to avoid jitter.
 
 ---
 
-## 📦 Installation
+##  Features
+
+-  Real-time hand tracking with MediaPipe.
+-  Mouse movement using index + middle fingers.
+-  Mouse click triggered by pinching index + thumb.
+-  Smooth cursor motion using interpolation.
+-  FPS display on camera window for performance monitoring.
+
+---
+
+##  Technologies Used
+
+- **Python 3.x**
+- [OpenCV](https://opencv.org/)
+- [MediaPipe](https://mediapipe.dev/)
+- [PyAutoGUI](https://pyautogui.readthedocs.io/en/latest/)
+- Math & Time (built-in)
+
+---
+
+##  Installation
+
+Install the required packages using pip:
 
 ```bash
-# Clone the repository
-git clone https://github.com/SrujanDavagni/ProjectMouse.git
-cd gesture-mouse
-
-# Install dependencies
 pip install opencv-python mediapipe pyautogui
-=======
-# ProjectMouse
->>>>>>> 6ccdb94eb81b1aaa16cbbb6f17b222403924d9a2
+
+Or inside the Jupyter Notebook:
+
+!pip install opencv-python mediapipe pyautogui
+
+##  Running
+
+1.Launch Jupyter Notebook:
+  cd E:\ProjectMouse(Your Specific folder)
+  jupyter notebook
+2.Open HandGestures.ipynb.
+3.Run each cell step by step.
+4.Make sure your webcam is accessible, and Python has screen control access.
