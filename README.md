@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🖱️ Hand Gesture Controlled Mouse
 
 Control your mouse cursor and click using hand gestures captured via webcam using Python, OpenCV, MediaPipe, and PyAutoGUI.
@@ -43,3 +44,6 @@ cd gesture-mouse
 
 # Install dependencies
 pip install opencv-python mediapipe pyautogui
+=======
+# ProjectMouse
+>>>>>>> 6ccdb94eb81b1aaa16cbbb6f17b222403924d9a2
