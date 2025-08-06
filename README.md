@@ -39,7 +39,7 @@ Control your mouse cursor and click using hand gestures captured via webcam usin
 
 ```bash
 # Clone the repository
-git clone https://github.com//gesture-mouse.git
+git clone https://github.com/SrujanDavagni/ProjectMouse.git
 cd gesture-mouse
 
 # Install dependencies
